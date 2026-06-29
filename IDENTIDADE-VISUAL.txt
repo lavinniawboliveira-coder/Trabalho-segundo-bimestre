@@ -1,0 +1,56 @@
+IDENTIDADE VISUAL
+Justificativa da identidade visual
+
+A identidade visual deste projeto foi desenvolvida para representar a importância da preservação ambiental por meio de elementos que remetem diretamente à natureza, ao equilíbrio ecológico e à conscientização ambiental. As escolhas de cores e tipografia foram pensadas para criar uma comunicação clara, agradável e coerente com o tema do projeto, que aborda o desmatamento, as queimadas e o derretimento das geleiras.
+
+Paleta de cores
+
+A paleta foi construída utilizando tons de verde, amarelo e preto, representando diferentes aspectos da natureza.
+
+#154001 – Verde escuro (cor principal): representa as florestas preservadas, a vida, a estabilidade e a responsabilidade ambiental. É utilizada principalmente em elementos de destaque e títulos importantes.
+#72A603 – Verde médio: simboliza crescimento, renovação e sustentabilidade. É aplicada em botões, ícones e elementos interativos.
+#ABD904 – Verde-limão: transmite esperança, inovação e energia positiva. Essa cor serve como apoio visual para destacar informações importantes.
+#DEF249 – Amarelo-esverdeado claro: remete à luz solar, ao equilíbrio e à harmonia entre os seres humanos e o meio ambiente. Também melhora o contraste em determinadas seções da interface.
+#0D0C07 – Preto: utilizado para textos e detalhes, proporcionando excelente contraste e facilitando a leitura do conteúdo.
+
+Essa combinação cria uma identidade moderna, agradável e totalmente relacionada ao tema ambiental.
+
+Tipografia
+
+As fontes foram escolhidas considerando legibilidade, organização e hierarquia visual.
+
+Título principal (H1) – Impact
+
+A fonte Impact foi utilizada no título principal (H1) por possuir letras grandes, fortes e marcantes. Seu objetivo é chamar imediatamente a atenção do usuário para o tema central do projeto, destacando a importância da preservação ambiental.
+
+Títulos secundários (H2) – Verdana
+
+Os títulos de segundo nível utilizam a fonte Verdana, conhecida por sua excelente legibilidade tanto em telas quanto em documentos. Ela organiza o conteúdo sem competir visualmente com o título principal.
+
+Subtítulos (H4) – Franklin Gothic Medium
+
+Nos subtítulos (H4) foi escolhida a fonte Franklin Gothic Medium, que apresenta um estilo moderno e profissional. Ela cria uma boa separação entre as diferentes seções do projeto e mantém a identidade visual consistente.
+
+Parágrafos – Georgia
+
+Os textos corridos utilizam a fonte Georgia, uma tipografia serifada desenvolvida para proporcionar conforto durante leituras mais longas. Sua aparência elegante melhora a experiência do usuário e facilita a compreensão das informações apresentadas.
+
+Logotipo
+
+O logotipo foi criado para representar a relação entre a natureza e o planeta. Seu elemento principal é um broto localizado em um vale, simbolizando o nascimento da vida, a renovação e a esperança de um futuro mais sustentável. O vale representa o ambiente natural que deve ser protegido, enquanto o broto demonstra que pequenas ações de preservação podem gerar grandes impactos positivos para o meio ambiente.
+
+No interior desse broto está o planeta Terra, reforçando a ideia de que o futuro do planeta depende diretamente da conservação da natureza. Essa composição transmite a mensagem de que a Terra está protegida pela natureza, destacando que preservar as florestas, reduzir o desmatamento e combater as queimadas são atitudes essenciais para manter o equilíbrio ambiental.
+
+O logotipo utiliza as cores oficiais da identidade visual, principalmente os tons de verde, que representam vida, crescimento e sustentabilidade, criando uma imagem simples, marcante e facilmente reconhecida pelo público.
+
+Favicon
+
+O favicon foi desenvolvido como uma versão simplificada do logotipo para garantir boa visualização em tamanhos reduzidos, como nas abas do navegador, favoritos e atalhos. Seu desenho consiste em um broto envolvendo o planeta Terra, mantendo a identidade visual do projeto mesmo em pequenas dimensões.
+
+O broto simboliza a vida, o crescimento e a renovação da natureza, enquanto o planeta Terra representa o compromisso com a preservação ambiental em escala global. A união desses dois elementos transmite a ideia de que o futuro do planeta depende do cuidado com o meio ambiente e da adoção de práticas sustentáveis.
+
+Para manter a consistência visual, o favicon utiliza as cores da paleta oficial do projeto, principalmente o verde escuro (#154001) e o verde médio (#72A603), com detalhes em #ABD904 e #DEF249. Seu design minimalista garante fácil identificação e boa legibilidade, mesmo quando exibido em tamanhos muito pequenos.
+
+Conclusão
+
+A identidade visual foi criada para comunicar os valores da preservação ambiental de maneira clara e eficiente. A paleta de cores estabelece uma conexão imediata com a natureza, enquanto a combinação das fontes cria uma hierarquia visual organizada e facilita a leitura. O logotipo e o favicon reforçam a proposta do projeto, tornando a marca facilmente reconhecível e contribuindo para uma comunicação visual consistente, profissional e alinhada ao objetivo de conscientizar a sociedade sobre a importância da proteção do meio ambiente.

@@ -1,0 +1,4 @@
+nome do grupo: Rockeiros da T.I.
+nomes dos integrantes: Lavínnia, Kauã Henrique, Vitor Pecoraro 
+tema escolhido: Emergência Climática e Ações Locais
+instruções para abrir o site: Acesse clicando no link do github
