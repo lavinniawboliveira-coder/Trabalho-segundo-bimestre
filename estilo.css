@@ -1,0 +1,438 @@
+/* ===================================================
+ ESTILO.CSS — [NOME DO SITE] —  Emergência Climática e Ações Locais
+ Grupo: Lavínnia, Kauã Henrique, Vitor Pecoraro
+ Data: 28/06/2026
+=================================================== */
+
+/* === 1. VARIAVEIS GLOBAIS (TOKENS DE DESIGN) === */
+:root {
+ --cor-primaria: #154001; 
+ --cor-secundaria: #72A603; 
+ --cor-acento: #ABD904; 
+ --cor-fundo: #DEF249;
+ --cor-texto: #172007;
+ --cor-texto-inv: #343800;
+}
+
+/* === 2. RESET E BASE === */
+
+html {
+  font-size: 16px; 
+}
+body {
+  background-color: var(--cor-fundo);
+  margin: 5px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+input, button, textarea, select {
+  font: inherit; /* Faz com que formulários herdem a fonte do body */
+}
+
+/* === 3. TIPOGRAFIA === */
+h1 {
+    color: var(--cor-primaria);
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    color: var(--cor-texto-inv);
+    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    color: var(--cor-secundaria);
+    font-size:larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.btn {
+    font-weight: bolder;
+} 
+ul, ol, p { 
+    color: var(--cor-texto);
+    font-size:large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: var(--cor-texto);
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:hover{
+    color: var(--cor-texto-inv);
+}
+
+/* === 4. COMPONENTES REUTILIZAVEIS === */
+
+.btn{
+    background-color: var(--cor-acento);
+    padding: 8px;
+    border-radius: 15px;
+    border-style: solid;
+}
+.btn:hover{
+    background-color: var(--cor-acento);
+    padding: 8px;
+    border-radius: 15px;
+    border-style: solid;
+    color: var(--cor-secundaria);
+}
+.cardgrid{
+    max-width: 400px; 
+    margin: 10px auto;
+    height: auto;
+    padding: 20px;
+    background-color: var(--cor-secundaria);
+    border-radius: 15px;
+    border-style: groove;
+    place-items: center;
+    text-align: center;
+}
+
+.cardflex{
+    max-width: 400px; 
+    margin: 10px auto;
+    height: auto;
+    padding: 20px;
+    background-color: var(--cor-secundaria);
+    border-radius: 15px;
+    border-style: groove;
+    place-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+blockquote{
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: bold;
+    align-content: center;
+}
+
+/* === 5. CABECALHO E NAVEGACAO === */
+.cabeçalho { 
+  height: 15px;
+  width: 880px;
+  align-self: center;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;  
+  margin: 0 auto; 
+  margin-top: 5px;
+  padding: 20px;
+  background-color: var(--cor-secundaria);
+  border-radius: 15px;
+}
+.menunav { 
+    display: flex;
+    gap: 30px;
+ }
+.cabeçalho img{
+    width: 45px;
+}
+
+
+/* === 6. HERO (PAGINA HOME) === */
+.hero{
+    background-image: url('imagens/imagem-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+.hero h1{
+    color: var(--cor-fundo);
+    margin-top: 190px;
+    margin-bottom: 20px;
+    font-size: clamp(2.5rem, 4vw + 1rem, 5rem);
+}
+.hero h2{
+    color: var(--cor-acento);
+    margin-bottom: 40px;
+}
+.hero a{
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* === 7. PAGINA HOME === */
+.containercards{
+    display: flex;
+    justify-content: center; 
+}
+.containercards h4{
+    color: #172007;
+}
+.containercards img{
+    width: 400px;
+    border-radius: 5px;
+}
+.containercards > .cardgrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 15px;
+    justify-items: center; /* Centraliza o conteúdo dentro de cada espaço do grid */
+    align-items: center;
+    width: 100%;
+}
+.blockquote{
+    height: 250px;
+    align-content: center;
+}
+/* === 8. PAGINA SOBRE === */
+.containerintegrantes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.containerintegrantes img{
+    max-width: 240px;
+    border-radius: 5px;
+}
+table {
+  width: 1000px;
+  margin: 0 auto;
+  border-collapse: collapse; /* Une as bordas para evitar linhas duplas */
+  border: 1px solid var(--cor-secundaria); /* Adiciona borda nas células */
+  border-width: 3px;
+}
+
+th {
+  padding: 5px; /* Espaçamento interno */
+  text-align: center;
+  background-color: var(--cor-secundaria);
+  border: 1px solid var(--cor-secundaria); /* Adiciona borda nas células */
+  border-width: 2px;
+}
+th, td {
+  border: 1px solid var(--cor-secundaria); /* Adiciona borda nas células */
+  border-width: 2px;
+}
+/* Adiciona o efeito hover ao passar o mouse */
+tbody tr:hover {
+  background-color: var(--cor-acento); 
+}
+
+/* Container principal da Timeline */
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+/* === 9. PAGINA TEMA === */
+.containertema{
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 20px; /* Espaçamento opcional entre as colunas */
+    max-width: 1200px;
+    align-items: start;
+}
+aside{
+    position: sticky;
+    top: 20px; /* Distância em pixels do topo da tela ao rolar */
+    align-self: flex-start;
+}
+
+/* === 10. PAGINA MIDIA === */
+.imagens{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 5px;
+  padding: 16px;
+}
+.imagens img{
+    width: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  
+}
+.imagens img:hover {
+  transform: scale(1.03);
+  transition: ease-in;
+}
+.audio audio{
+    overflow: hidden; 
+    border-radius: 12px;
+}
+.video iframe{
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+/* === 11. PAGINA CONTATO === */
+.container-formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.formulario-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--cor-primaria);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px var(--cor-secundaria);
+  width: 100%;
+  max-width: 500px;
+}
+
+.grupo-campo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.grupo-campo label {
+  font-weight: 600;
+  color: var(--cor-texto);
+}
+
+/* Estilização dos campos: borda, padding e border-radius */
+.grupo-campo input, 
+.grupo-campo textarea {
+  padding: 12px 16px;
+  border: 1.5px solid var(--cor-borda);
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  color: var(--cor-texto);
+  background-color: var(--cor-acento);
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  width: 100%;
+  box-sizing: border-box; /* Garante que padding não aumente o width */
+}
+
+/* Focus com outline destacado */
+.grupo-campo input:focus, 
+.grupo-campo textarea:focus {
+  border-color: var(--cor-foco);
+  outline: 3px solid rgba(52, 152, 219, 0.2); /* Sombra elegante no outline */
+  background-color: #ffffff;
+}
+.formulario-contato .btn{
+    background-color: var(--cor-fundo);
+}
+.btn:hover {
+  background-color: var(--cor-texto-inv);
+  transform: translateY(-2px); /* Leve efeito de elevação no hover */
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+#aviso{
+    background-color: var(--cor-acento);
+    text-decoration: dotted;
+    text-align: center;
+}
+
+/* === 12. PAGINA EXTRA === */
+.organizacoes-cards {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px black;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 300px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px black;
+}
+
+.tabela-glossario {
+  width: 1000px;
+  justify-content: center;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+.tabela-glossario th,
+.tabela-glossario td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.tabela-glossario th {
+  background-color: var(--cor-secundaria);
+  font-weight: bold;
+}
+
+.tabela-glossario tbody tr:hover {
+  background-color: var(--cor-acento);
+}
+
+/* Linhas ímpares */
+.tabela-glossario tbody tr:nth-child(odd) {
+  background-color: var(--cor-acento);
+}
+
+/* Linhas pares */
+.tabela-glossario tbody tr:nth-child(even) {
+  background-color: var(--cor-fundo);
+}
+
+/* === 13. RODAPE === */
+.rodapetotal{
+    height: auto;
+    width: 1200px;
+    align-self: center;
+    margin: 0 auto; 
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: var(--cor-secundaria);
+    border-radius: 15px;
+    text-align: left;
+    gap: 30px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+ }
+.rodape{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+}
+.rodape ul{
+    flex: 2;
+}
+.rodape p{
+    flex: 1;
+}
+
+/* === 14. RESPONSIVIDADE (MEDIA QUERIES) === */
+@media (max-width: 768px) { 
+    h1 {
+        font-size: 24px;
+    }
+    .containertema {
+    grid-template-columns: 1fr;
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,44 @@
+<!--Página index-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <!--Logo-->
+        <img src="" alt="Logotipo">
+        <!--Título do site-->
+        <h1>Título</h1>
+        <!--Menu de navegação-->
+        <nav>
+            <p>Navegue pelas páginas aqui:</p>
+            <ul>
+                <li><a href="index.html">Página principal</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="tema.html">Tema principal</a></li>
+                <li><a href="midia.html">Mídias</a></li>
+                <li><a href="contato.html">Contate-nos</a></li>
+                <li><a href="extra.html">Extras</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Parte principal-->
+    <main>
+    </main>
+    <!--Rodapé-->
+    <footer>
+        <p>Nome do projeto - 1EM</p>
+        <ul>
+            <p>Links das páginas usadas para dados:</p>
+            <li>link 1</li>
+            <li>link 2</li>
+            <li>link 3</li>
+        </ul>
+        <p>AVISO: todos os dados do contato são fictícios</p>
+    </footer>
+</body>
+</html>

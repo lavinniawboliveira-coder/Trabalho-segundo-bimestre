@@ -1,0 +1,148 @@
+<!--Página index-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/png" href="imagens/favicon.png">
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <div class="cabeçalho">
+            <!--Logo-->
+            <img src="imagens/logo.png" alt="Logotipo" class="logo">
+            <!--Título do site-->
+            <h1 class="titulo">EcoWay</h1>
+            <!--Menu de navegação-->
+            <nav class="menunav">
+                <a href="index.html">Página principal</a>
+                <a href="sobre.html">Sobre nós</a>
+                <a href="tema.html">Tema principal</a>
+                <a href="midia.html">Mídias</a>
+                <a href="contato.html">Contate-nos</a>
+                <a href="extra.html">Extras</a>
+            </nav>
+        </div>
+    </header>
+    <!--Parte principal-->
+    <main>
+        <h1>Contato:</h1>
+        <h4>Formulário para contato:</h4>
+        <section class="container-formulario">
+            <form class="formulario-contato">
+                <section class="grupo-campo">
+                    <p>
+                        <label for="input-nome">Nome completo: </label>
+                        <input type="text" id="input-nome" name="nome" required>
+                    </p>
+                </section>
+                <section class="grupo-campo">
+                    <p>
+                        <label for="input-email">E-mail: </label>
+                        <input type="email" id="input-email" name="email" required>
+                    </p>
+                </section>
+                <section class="grupo-campo">
+                    <p>
+                        <label for="input-telefone">Telefone: </label>
+                        <input type="tel" id="input-telefone" name="telefone" placeholder="(99)99999-9999" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" min="2007-06-22" max="2026-06-22">
+                    </p>
+                </section>
+                <section class="grupo-campo">
+                    <p>
+                        <label for="input-data">Data de nascimento: </label>
+                        <input type="date" id="input-data" name="data" min="2007-06-29" max="1956-06-29">
+                    </p>
+                </section>
+                <section class="grupo-campo">
+                    <p>
+                        <label for="input-assunto">Selecione seu assunto: </label>
+                        <select name="assunto" id="input-assunto">
+                            <option value="denuncia">Denúncia</option>
+                            <option value="voluntariado">Voluntariado</option>
+                            <option value="parceria">Parceria</option>
+                            <option value="imprensa">Imprensa</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="input-assuntoelaborar">Elabore seu assunto:</label>
+                        <textarea name="assuntoelaborar" id="input-assuntoelaborar" cols="30" rows="6"></textarea>
+                    </p>
+                </section>
+                <section class="grupo-campo">
+                    <p>
+                        <label for="input-newsletter">Deseja receber newsletters:</label>
+                        <input type="checkbox" id="input-newsletter" name="newsletter" value="subscribe">
+                    </p>
+                </section>
+                <section class="grupo-campo">
+                    <p>
+                        <label for="btn-enviar">Enviar informações</label>
+                        <input type="image" src="" id="btn-enviar" name="enviar" width="5%">
+                    </p>
+                    <p>
+                        <button type="reset" class="btn">Limpar formulário</button>
+                    </p>
+                </section>
+            </form>
+        </section>
+        <section class="informacoes">
+            <h4>Informações de contato:</h4>
+            <p>Telefone: (11) 99999-0001 (número fictício)</p>
+            <p>Email: contato@ecoway.org.br (e-mail fictício)</p>
+            <p>Endereço: </p><address>Rua das Araucárias Verdes, nº 247, Bairro Jardim Sustentável, São Paulo – SP, CEP: 09999-999 *(fictício)*</address>
+            <iframe 
+            src="https://google.com" 
+            width="350" 
+            height="450" 
+            allowfullscreen="" 
+            title="Nosso endereço"
+            >
+            </iframe>
+            <p>Horário de atendimento:</p>
+            <p>
+                <dl>
+                <dt>Segunda a sexta:</dt>
+                <dd>08h00 às 18h00</dd>
+                <dt>Sábados:</dt>
+                <dd>09h00 às 13h00</dd>
+                <dt>Domingos e feriados:</dt>
+                <dd>Fechado</dd>
+                </dl>
+            </p>
+        </section>
+        <p id="aviso">AVISO: Todas as informações de contato apresentadas nesta página são fictícias e foram criadas exclusivamente para fins educacionais, compondo o desenvolvimento deste projeto escolar sobre Emergência Climática e Ações Locais.</p>
+        <hr>
+    </main>
+    <!--Rodapé-->
+    <footer>
+        <div class="rodapetotal">
+            <nav class="rodapenav">
+                <a href="index.html">Página principal</a>
+                <a href="sobre.html">Sobre nós</a>
+                <a href="tema.html">Tema principal</a>
+                <a href="midia.html">Mídias</a>
+                <a href="contato.html">Contate-nos</a>
+                <a href="extra.html">Extras</a>
+            </nav>
+            <div class="rodape">
+            <p>Nome do projeto - 1EM</p>
+            <ul>
+                <p>Links das páginas usadas para dados:</p>
+                <li><a href="https://www.gov.br/inpe/pt-br" target="_blank">Instituto Nacional de Pesquisas Espaciais (INPE)</a> - Dados sobre desmatamento e monitoramento ambiental.</li>
+                <li><a href="https://www.unep.org/pt-br" target="_blank">Programa das Nações Unidas para o Meio Ambiente (PNUMA/UNEP)</a> - Informações sobre preservação ambiental e mudanças climáticas.</li>
+                <li><a href="https://www.ipcc.ch/?utm" target="_blank">Painel Intergovernamental sobre Mudanças Climáticas (IPCC)</a> - Relatórios científicos sobre aquecimento global e derretimento das geleiras.</li>
+                <li><a href="https://www.gov.br/mma?utm" target="_blank">Ministério do Meio Ambiente e Mudança do Clima (MMA)</a> - Conteúdo sobre políticas e preservação ambiental no Brasil</li>
+                <li><a href="https://www.un.org/en/climatechange?utm" target="_blank">Organização das Nações Unidas (ONU) – Meio Ambiente</a></li>
+                <li><a href="https://unfccc.int" target="_blank">Convenção-Quadro das Nações Unidas sobre Mudança do Clima (UNFCCC)</a></li>
+            </ul>
+            <p>AVISO: todos os dados do contato são fictícios</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
